@@ -17,9 +17,9 @@
         </a>
 
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Главная</a></li>
+            <li class="nav-item"><a href="{{route('home')}}" class="nav-link active" aria-current="page">Главная</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Все постсы</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Добавить пост</a></li>
+            <li class="nav-item"><a href="{{route('products.add')}}" class="nav-link">Добавить пост</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Вход</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Регистрация</a></li>
         </ul>
